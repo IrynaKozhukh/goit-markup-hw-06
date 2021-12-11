@@ -653,7 +653,9 @@ body {
 
 .container > .footer-btn{
   display: flex;
-
+}
+.input-footer-icon {
+fill: var(--second-logo-color);
 }
 /*-------Модалка-------*/
 
@@ -716,7 +718,7 @@ body {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: ;
+  color:var(--second-title-color);
 }
 .modal-form {
   text-align: center;
@@ -739,10 +741,11 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(12px, 28px);
+  transform: translate(12px, 33px);
   width: 18px;
   height: 18px;
-  fill: currentColor;
+  opacity: 1;
+  
   transition-property: fill;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
@@ -779,9 +782,11 @@ body {
 border: 1px solid var(--accent-color);
 }
 .modal-label {
+  text-align: left;
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
+  font-weight: normal;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--second-text-color);
