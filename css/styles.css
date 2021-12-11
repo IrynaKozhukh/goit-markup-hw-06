@@ -737,15 +737,18 @@ fill: var(--second-logo-color);
 .modal-input:focus + .input-icon {
   fill: var(--accent-color);
 }
+.modal-input:focus {
+  border: none
+   var(--accent-color);
+}
 .input-icon {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(12px, 33px);
+  transform: translate(12px, 11px);
   width: 18px;
   height: 18px;
   opacity: 1;
-  
   transition-property: fill;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
