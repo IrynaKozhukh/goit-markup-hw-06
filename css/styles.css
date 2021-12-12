@@ -867,6 +867,13 @@ color: var(--second-text-color);
 }
 .icon-check: {
   fill: transparent;
+    margin-right: 7px;
+    border: 2px solid var(--second-title-color);
+    border-radius: 4px;
+    background-color: var(--second-logo-color);
+    transition-property: background-color, border;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--function);
 }
 .modal-check:checked + .check-text span {
   background-color: var(--accent-color);
