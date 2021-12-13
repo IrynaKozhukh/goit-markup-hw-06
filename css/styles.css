@@ -771,6 +771,7 @@ fill: var(--second-logo-color);
   border-radius: 4px;
   transition-property: border;
   transition: var(--duration);
+  outline: none;
 }
 .modal-text::placeholder {
   font-size: 12px;
@@ -857,6 +858,14 @@ color: var(--second-text-color);
   border-radius: 2px;
   align-items: center;
   justify-content: center;
+  color: transparent;
+}
+.check-text:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .modal-check:checked + .check-text span {
   background-color: var(--accent-color);
@@ -867,8 +876,11 @@ color: var(--second-text-color);
   fill: currentColor;
   margin-right: 5px;
   border-radius: 2px;
-  width: 16px;
+  width: 13px;
   height: 15px;
+  display: block;
+  position: absolute;
+  transform: translate(10%);
 }
 .form-btn-text {
   margin-right: 10px;
