@@ -861,14 +861,14 @@ color: var(--second-text-color);
 .modal-check:checked + .check-text span {
   background-color: var(--accent-color);
   border: none;
+  color: var(--second-logo-color);
 }
 .icon-check {
-  fill: var(--second-logo-color);
+  fill: currentColor;
+  margin-right: 5px;
+  border-radius: 2px;
   width: 16px;
   height: 15px;
-  margin-right: 5px;
-  border: 2px solid var(--second-title-color);
-  border-radius: 2px;
 }
 .form-btn-text {
   margin-right: 10px;
